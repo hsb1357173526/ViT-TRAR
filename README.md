@@ -110,7 +110,7 @@ But we will improve it in the future and learn from it in latest experiments.
 |image resolution|  orders    |  dataset     | total_steps /warmup_steps | acc   |  cost_time    |  memory       | 
 |:--------------:|:----------:|:------------:|:-------------------------:|:-----:|:-------------:|:-------------:|
 | 224*224        |     -      | imagenet2012 |          20000/1000       | 81.62%|    2d0h58m24s |   3414MiB     |
-| 224*224        | [0,1,2,3]  | imagenet2012 |          20000/1000       | 81.60%|    4d9h51m1s  |   44547MiB    |
+| 224*224        | [0,1,2,3]  | imagenet2012 |          20000/1000       | 81.60%|    4d9h51m1s  |   4457MiB     |
 | 384*384        |     -      | imagenet2012 |          20000/1000       | 83.62%|    3d0h6m49s  |   5903MiB     |
 | 384*384        | [0,1,2]    | imagenet2012 |          20000/1000       | 83.77%|   17d5h47m49s |    12061MiB   |
 | 384*384        | [0,1,2,3]  | imagenet2012 |          20000/1000       | 83.71%|    18d17h8m58s|   14055MiB    |
